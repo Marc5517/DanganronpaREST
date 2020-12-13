@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanganronpaREST", "DanganronpaREST\DanganronpaREST.csproj", "{CBA58525-B55C-4BA8-AF37-01CCE5D7DB36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanganronpaREST", "DanganronpaREST\DanganronpaREST.csproj", "{CBA58525-B55C-4BA8-AF37-01CCE5D7DB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeDanganronpa", "ConsumeDanganronpa\ConsumeDanganronpa.csproj", "{EB743F3E-C672-477A-BAB0-77411F22B080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CBA58525-B55C-4BA8-AF37-01CCE5D7DB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA58525-B55C-4BA8-AF37-01CCE5D7DB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA58525-B55C-4BA8-AF37-01CCE5D7DB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB743F3E-C672-477A-BAB0-77411F22B080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB743F3E-C672-477A-BAB0-77411F22B080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB743F3E-C672-477A-BAB0-77411F22B080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB743F3E-C672-477A-BAB0-77411F22B080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

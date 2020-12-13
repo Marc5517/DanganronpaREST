@@ -33,10 +33,10 @@ namespace DanganronpaREST.Controllers
 
         // GET api/<CharactersController>/5
         [HttpGet]
-        [Route("{id}")]
-        public Character GetByStudnetID(int id)
+        [Route("{studentId}")]
+        public Character GetByStudnetID(int studentId)
         {
-            return Characters.Find(c => c.StudentId == id);
+            return Characters.Find(c => c.StudentId == studentId);
         }
 
         [HttpGet]
