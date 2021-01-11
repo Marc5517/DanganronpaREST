@@ -58,15 +58,30 @@ namespace DanganronpaREST.Controllers
         }
 
         // PUT api/<CharactersController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        [Route("{id}")]
+        public void Put(int id, [FromBody] Character value)
         {
+            Character c = GetByStudnetID(id);
+            if (c == null)
+                return;
+
+            c.FirstName = value.FirstName;
+            c.LastName = value.LastName;
+            c.Talent = value.Talent;
+            c.ClassNo = value.ClassNo;
         }
 
         // DELETE api/<CharactersController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("{id}")]
         public void Delete(int id)
         {
+            Character c = GetByStudnetID(id);
+            if (c == null)
+                return;
+
+            Characters.Remove(c);
         }
     }
 }
